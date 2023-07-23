@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54578.jpg?size=626&ext=jpg&ga=GA1.1.396325640.1690108202&semt=ais');
+  min-height: 100vh;
+  padding: 24px;
+  font-family: 'Roboto';
+}
+
+.input-Element {
+  width: 100%;
+  height: 50px;
+  margin: 12px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+
+.img {
+  padding: 20px;
+}
+
+.form-container {
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 32px;
+  margin-left: 8px;
+  color: #ffffff;
+  font-weight: thick;
+}
+
+.button {
+  background-color: rgb(30, 218, 143);
+  height: 50px;
+  width: 140px;
+  border: none;
+  border-radius: 12px;
+  margin-left: 8px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 22px;
+}
+.nav-bar {
+  height: 15vh;
+  padding: 12px;
+  padding-top: 0;
+}
+
+.icon {
+  height: 80px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.burger-icon {
+  cursor: pointer;
+}
+
+.unordered-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.vehicle-list {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .img {
+    width: 100%;
+  }
+  .nav-bar {
+    height: 10vh;
+  }
+  .icon {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img {
+    order: 1;
+    width: 60%;
+  }
+  .input-Element {
+    height: 50px;
+    font-size: 18px;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .button {
+    height: 50px;
+    width: 180px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .heading {
+    font-size: 62px;
+  }
+}
+
+.v-head {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 8px;
+  margin-top: 12px;
+}
